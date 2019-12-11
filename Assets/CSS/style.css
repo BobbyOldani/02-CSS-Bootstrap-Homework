@@ -15,8 +15,8 @@ body {
     position: absolute;
     width: 100%;
     height: 60px;
-    line-height: 60px;
     bottom: 0;
+    border-top: 8px solid #4aaaa5;
 
 }
 
@@ -70,7 +70,7 @@ body {
     color: #ffffff;
 }
 
-@media screen and (max-width: 576px) { /*Header-Name*/   /*Not sure what max width to set this to. It seems to not quite change at the value I expect...*/
+@media screen and (max-width: 640px) { /*Header-Name*/   /*Not sure what max width to set this to. It seems to not quite change at the value I expect...*/
     .navbar>.container>.navbar-brand {
         width: 100%;
         text-align: center;
@@ -78,9 +78,9 @@ body {
     }
 }
 
-@media screen and (max-width: 576px) { /*Header-Links*/   /*Not sure what max width to set this to. It seems to not quite change at the value I expect...*/
+@media screen and (max-width: 640px) { /*Header-Links*/   /*Not sure what max width to set this to. It seems to not quite change at the value I expect...*/
     .navbar>.container>ul {
-        margin-left: 20%;
+        margin-left: 25%;
     
     }
 }
@@ -97,22 +97,88 @@ li:nth-child(-n+2) { /*Header-Links*/
     border-right: 1px solid #dddddd;
 }
 
-a { /*Header-Links*/
+.nav-item>a { /*Header-Links*/
     color: #777777;
 }
 
-a:hover { /*Header-Links*/
+.nav-item>a:hover { /*Header-Links*/
     color: #777777;
 }
 
-.container { /*Main Content*/
+.container { 
     margin-top: 20px;
     padding: 20px;
     border: 1px solid #dddddd;
     background-color: #ffffff;
     align-content: center;
-    max-width: 600px;
+    max-width: 700px; /*I have no clue what to do here for the width.*/
 }
+
+.container-main { /*Main Content*/
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    align-content: center;
+    max-width: 700px; /*I have no clue what to do here for the width.*/
+}
+
+@media screen and (max-width: 640px){
+    .container-main{
+        margin-left: 10%;
+        margin-right: 10%;
+
+}
+}
+
+@media screen and (max-width: 768px){
+    .container-main{
+        margin-left: 5%;
+        margin-right: 5%;
+
+}
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+}
+}
+
+@media screen and (max-width: 640px){
+    .container{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+}
+}
+
+@media screen and (max-width: 640px){
+    .navbar-brand{
+        margin-left: 0;
+
+}
+}
+
+@media screen and (max-width: 640px){
+    .col-xs{
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+
+@media screen and (max-width: 640px){
+    .container-main>.row>.col-xs>.box{
+        width: 320px;
+    
+    }
+    }
+
 
 h1 { /*Main Content-Title*/
 color: #4aaaa5;
@@ -155,9 +221,53 @@ form { /*Form*/
 }
 
 
+.box {
+    display: inline-block; 
+    margin: 15px;
+    width: 237px;
+    height: 237px;
+    background-size: cover;
+}
 
+.box .title {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    top: 180px;
+    padding: 12px;
+    font-size: 14pt;
+}
 
+.title>a { 
+    color: #ffffff;
+    padding: 15px 50px 15px 50px;
+}
 
+.title>a:hover { 
+    color: #ffffff;
+    text-decoration: none;
+  
+}
 
+.asgardImg {
+    background-image: url(../images/asgard.jpg);
+}
+
+.guyeImg {
+    background-image: url(../images/guye.jpeg);
+}
+
+.stevenspassImg {
+    background-image: url(../images/stevenspass.jpg);
+}
+
+.bakerImg {
+    background-image: url(../images/baker.jpg);
+}
+
+.ranierImg {
+    background-image: url(../images/ranier.jpg);
+}
 
 
