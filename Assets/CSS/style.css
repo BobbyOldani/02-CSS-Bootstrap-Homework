@@ -8,6 +8,11 @@ body {
     margin-bottom: 60px; /*STICKY FOOTER -----> Very Important*/
 }
 
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
 .footer { /*STICKY FOOTER*/
     background-color: #666666;
     color: white;
@@ -79,8 +84,9 @@ body {
 }
 
 @media screen and (max-width: 640px) { /*Header-Links*/   /*Not sure what max width to set this to. It seems to not quite change at the value I expect...*/
-    .navbar>.container>ul {
-        margin-left: 25%;
+    .navbar>.container>.nav {
+        margin-left: auto;
+        margin-right: auto;
     
     }
 }
@@ -154,6 +160,7 @@ li:nth-child(-n+2) { /*Header-Links*/
         width: 100%;
         margin-left: 0;
         margin-right: 0;
+        
 }
 }
 
@@ -270,9 +277,3 @@ form { /*Form*/
     background-image: url(../images/ranier.jpg);
 }
 
-.profilepic {
-    background-image: url(../Images/profilepic.jpg);
-    background-size: 250px 250px;
-    height: 250px;
-    width: 250px;
-}
