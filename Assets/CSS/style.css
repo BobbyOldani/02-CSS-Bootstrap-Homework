@@ -4,7 +4,7 @@ html {   /*STICKY FOOTER -----> Very Important*/
     min-height: 100%;
 }
 body {
-    background-image: url(../images/leaves-pattern.png);
+    background-image: url(../Images/leaves-pattern.png);
     margin-bottom: 60px; /*STICKY FOOTER -----> Very Important*/
 }
 
