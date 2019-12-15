@@ -189,7 +189,7 @@ li:nth-child(-n+2) { /*Header-Links*/
 
     @media screen and (max-width: 480px){
         .container-main>.row>.col-xs>.box{
-            min-width: 300px;
+            max-width: 275px;
         
         }
         }
