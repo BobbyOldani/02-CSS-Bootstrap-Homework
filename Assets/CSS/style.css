@@ -181,16 +181,24 @@ li:nth-child(-n+2) { /*Header-Links*/
 
 @media screen and (max-width: 640px){
     .container-main>.row>.col-xs>.box{
-        width: 320px;
+        width: 400px;
     
     }
     }
 
+.textright{
+    margin-top: 10px;
+}
+
+.textleft{
+    margin-top: 10px;
+}
 
 h1 { /*Main Content-Title*/
 color: #4aaaa5;
 border-bottom: 2px solid #dddddd;
 padding-bottom: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
