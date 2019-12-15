@@ -180,20 +180,6 @@ li:nth-child(-n+2) { /*Header-Links*/
 
 }
 
-@media screen and (max-width: 640px){
-    .container-main>.row>.col-xs>.box{
-        min-width: 350px;
-    
-    }
-    }
-
-    @media screen and (max-width: 480px){
-        .container-main>.row>.col-xs>.box{
-            max-width: 275px;
-        
-        }
-        }
-
 .textright{
     margin-top: 10px;
 }
